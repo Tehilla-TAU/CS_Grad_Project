@@ -14,15 +14,6 @@ summary(linear_model)
 logistic_model <- glm(High_Salary ~ Internships_Completed + Networking_Score, data = df, family = binomial)
 summary(logistic_model)
 
-#### יצירת משתנה קטגורי לרמת נטוורקינג ----
-df <- df |> mutate(
-  Networking_Level = case_when(
-    Networking_Score <= quantile(Networking_Score, 0.33, na.rm = TRUE) ~ "Low",
-    Networking_Score <= quantile(Networking_Score, 0.67, na.rm = TRUE) ~ "Medium",
-    TRUE ~ "High"
-  )
-)
-
 #### גרף: התפלגות השכר לפי מספר התמחויות ורמת נטוורקינג ----
 ggplot(df, aes(x = factor(Internships_Completed), y = Starting_Salary, fill = Networking_Level)) +
   geom_boxplot(alpha = 0.5, outlier.shape = NA) +
