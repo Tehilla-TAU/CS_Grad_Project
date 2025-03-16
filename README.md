@@ -22,7 +22,7 @@
 
 ---
 
-📊 **גרפים מתוך החקירה הראשונית:**  
+📊 **גרפים לצורך הצגת נתונים מקדימהת:**  
 ![התפלגות מספר ההתמחויות](graphs/internships_distribution.png)  
 ![התפלגות כישורי נטוורקינג](graphs/networking_score_distribution.png)  
 ![התפלגות השכר לפי מגדר](graphs/salary_distribution_gender.png)  
@@ -43,7 +43,7 @@
 
 ---
 
-## 📈 המחשות גרפיות  
+## 📈 **גרפים המציגים את ממצאים עיקריים לאחר ניתוח של רגרסיה לינארית ולוגיסטית**   
 
 ### **התפלגות השכר לפי מספר התמחויות ורמת נטוורקינג**  
 ![התפלגות שכר](graphs/salary_vs_internships_networking.png)  
