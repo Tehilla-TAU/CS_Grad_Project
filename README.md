@@ -22,7 +22,7 @@
 
 ---
 
-📊 **גרפים לצורך הצגת נתונים מקדימהת:**  
+📊 **גרפים לצורך הצגת נתונים מקדימה:**  
 ![התפלגות מספר ההתמחויות](graphs/internships_distribution.png)  
 ![התפלגות כישורי נטוורקינג](graphs/networking_score_distribution.png)  
 ![התפלגות השכר לפי מגדר](graphs/salary_distribution_gender.png)  
